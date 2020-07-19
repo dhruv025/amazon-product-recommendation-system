@@ -15,5 +15,8 @@ Also, done exploratory data analysis to analyze the data with the help of seabor
 
 ## 3.Model Training: 
 
-After, all the data processing steps, I have created a pivot table which tells which person has purchase which product and how much rating has been given to that particular product. Before, fitting the dataset into model the matrix which is generated from pivot table is converted into sparse matrix using the CSR representation by calling the csr_matrix() function.
+After, all the data processing steps, I have created a pivot table which tells which person has purchase which product and how much rating has been given to that particular product. 
+
+Before, fitting the dataset into model the matrix which is generated from pivot table is converted into sparse matrix using the CSR representation by calling the csr_matrix() function.
+
 Now, I have used Nearest Neighbour is used which is an unsupervised machine learning algorithm which find the k most similar items to a particular instance based on the distance metric like euclidean distance.
